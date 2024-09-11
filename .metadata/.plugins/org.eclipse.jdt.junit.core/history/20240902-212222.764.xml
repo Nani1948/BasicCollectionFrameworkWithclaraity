@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="APIFramework" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="cucumber.Options.TestRunner" time="0.611">
+    <testsuite name="Validating Place API's" time="0.611">
+      <testcase name="Verify if place is being sucucessfully added using AddPlaceAPI." classname="Validating Place API's" time="0.611">
+        <error>java.io.FileNotFoundException: \APIFramework\src\test\resources\config.properties (The system cannot find the path specified)&#13;
+	at java.base/java.io.FileInputStream.open0(Native Method)&#13;
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)&#13;
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)&#13;
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)&#13;
+	at resources.PropertyUtils.getValueFromFile(PropertyUtils.java:14)&#13;
+	at resources.Utils.requestSpecification(Utils.java:22)&#13;
+	at stepDefinition.PlaceValidations.add_place_payload(PlaceValidations.java:39)&#13;
+	at ✽.Add Place Payload.(file:///C:/Users/knand/eclipse-workspace/APIFramework/src/test/java/features/placeValidations.feature:4)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

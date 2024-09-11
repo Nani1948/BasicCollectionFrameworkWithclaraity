@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="APIFramework" tests="3" started="3" failures="0" errors="3" ignored="0">
+  <testsuite name="cucumber.Options.TestRunner" time="3.079">
+    <testsuite name="Validating Place API's" time="3.079">
+      <testcase name="Verify if place is being sucucessfully added using AddPlaceAPI. #1" classname="Validating Place API's" time="2.299">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'API call got success with status code 200.' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("API call got success with status code {int}.")
+public void api_call_got_success_with_status_code(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Verify if place is being sucucessfully added using AddPlaceAPI. #2" classname="Validating Place API's" time="0.774">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'API call got success with status code 200.' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("API call got success with status code {int}.")
+public void api_call_got_success_with_status_code(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Verify the delete place functionality is working" classname="Validating Place API's" time="0.005">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'Delete Place Payload.' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("Delete Place Payload.")
+public void delete_place_payload() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("API call got success with status code {int}.")
+public void api_call_got_success_with_status_code(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="APIFramework" tests="2" started="2" failures="0" errors="2" ignored="0">
+  <testsuite name="cucumber.Options.TestRunner" time="3.978">
+    <testsuite name="Validating Place API's" time="3.978">
+      <testcase name="Verify if place is being sucucessfully added using AddPlaceAPI. #1" classname="Validating Place API's" time="3.187">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'Verify place_Id created maps to "AAhouse" using "getPlaceAPI".' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("Verify place_Id created maps to {string} using {string}.")
+public void verify_place_id_created_maps_to_using(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Verify if place is being sucucessfully added using AddPlaceAPI. #2" classname="Validating Place API's" time="0.79">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'Verify place_Id created maps to "Ahouse" using "getPlaceAPI".' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("Verify place_Id created maps to {string} using {string}.")
+public void verify_place_id_created_maps_to_using(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

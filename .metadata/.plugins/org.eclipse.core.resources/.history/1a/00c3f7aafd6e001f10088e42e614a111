@@ -1,0 +1,13 @@
+package basic.day2.wrapperclass;
+
+public class WrapperClass {
+	//In java ,Every entity is treated as object and primitive data type.
+	//That it is not 100% pure object 
+	//Primitive data type:boolean,char,double,float,short,int,long,byte
+	//Wrapper Class: we can wrap the primitive data types into  object of that class.
+	
+	public static void main(String []args) {
+		
+	}
+
+}

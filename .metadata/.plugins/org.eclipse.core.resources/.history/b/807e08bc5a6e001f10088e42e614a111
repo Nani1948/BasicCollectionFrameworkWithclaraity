@@ -1,0 +1,15 @@
+package basic.day2;
+
+public class StudentTest {
+
+	public static void main(String[] args) {
+		Student ob=new Student();
+		ob.id=11;
+		ob.name="ambuj";
+		ob.age=30;
+		ob.printInfo();
+		Student ob2=new Student();
+
+	}
+
+}

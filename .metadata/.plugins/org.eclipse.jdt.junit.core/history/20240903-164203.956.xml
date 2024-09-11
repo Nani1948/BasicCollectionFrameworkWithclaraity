@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="APIFramework" tests="2" started="2" failures="1" errors="0" ignored="0">
+  <testsuite name="cucumber.Options.TestRunner" time="7.256">
+    <testsuite name="Validating Place API's" time="7.256">
+      <testcase name="Verify if place is being sucucessfully added using AddPlaceAPI. #1" classname="Validating Place API's" time="4.593">
+        <failure>
+          <expected>AAhouse</expected>
+          <actual>Ahouse</actual>
+          org.junit.ComparisonFailure: expected:&lt;A[A]house&gt; but was:&lt;A[]house&gt;&#13;
+	at org.junit.Assert.assertEquals(Assert.java:115)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:144)&#13;
+	at stepDefinition.PlaceValidations.verify_place_id_created_maps_to_using(PlaceValidations.java:91)&#13;
+	at ✽.Verify place_Id created maps to "AAhouse" using "getPlaceAPI".(file:///C:/Users/knand/eclipse-workspace/APIFramework/src/test/java/features/placeValidations.feature:9)&#13;
+&#13;
+
+        </failure>
+      </testcase>
+      <testcase name="Verify if place is being sucucessfully added using AddPlaceAPI. #2" classname="Validating Place API's" time="2.663"/>
+    </testsuite>
+  </testsuite>
+</testrun>

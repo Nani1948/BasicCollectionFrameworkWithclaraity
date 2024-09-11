@@ -1,0 +1,34 @@
+package listdemo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ListOFArrayListDemo {
+	//1.An ArrayList in Java is a resizable array implementation of the List interface.
+		//2.Unlike arrays, which have a fixed size, an ArrayList can dynamically grow or shrink as elements are added or removed. 
+		//When i am trying to add the element at the last index of the list  using set method, it is give java.lang.error .because
+		/*
+		 * Yes, you can add an element to the last index of an ArrayList,
+		 *  but instead of using the set() method, you need to use the add() method.
+	      The add() method appends the element to the end of the ArrayList. 
+	      The set() method replaces an element at a specified index, which will throw an IndexOutOfBoundsException if the index doesn't already exist.*/
+		//3.How to Add an Element to the Last Index:
+	   //The add() method automatically appends the new element at the end of the list, 
+	   //so you don’t need to manage the index manually.
+		public static void main(String[] args) {
+		List<String>list=new ArrayList<>();
+		list.add("apple");
+		list.add("banana");
+		list.add("cherry");
+		System.out.println(list);
+	// To access the element use get()
+		System.out.println(list.get(2));
+		//To modify the element using set using index,value
+		//list.set(3,"orange"); modify using add method
+		list .add(3,"orange");
+		System.out.println(list);
+		
+		
+		}		
+		
+}

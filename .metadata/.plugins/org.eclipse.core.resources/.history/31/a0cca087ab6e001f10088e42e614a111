@@ -1,0 +1,15 @@
+package basic.day2.method;
+
+public class MethodDemo {
+	//It is main purpose : it is reusabailtuy of method.
+	public int add(int a, int b) {
+		return a+b;
+	}
+	
+	public static void main(String []args) {
+		MethodDemo d=new MethodDemo();
+		int res=d.add(19, 20);
+		System.out.println("Addition Of Two Number:"+res);
+	}
+
+}

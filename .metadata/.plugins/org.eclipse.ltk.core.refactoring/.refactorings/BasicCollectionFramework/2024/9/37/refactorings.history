@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;ListOFArrayListDemo.java&apos; to &apos;CollectionFramework/src/main/java/arraylistdemo&apos;&#x0D;&#x0A;- Original project: &apos;CollectionFramework&apos;&#x0D;&#x0A;- Destination element: &apos;CollectionFramework/src/main/java/arraylistdemo&apos;&#x0D;&#x0A;- Original element: &apos;ListOFArrayListDemo.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;arraylistdemo" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;{ListOFArrayListDemo.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1726081866380" units="1" version="1.0"/>
+</session>

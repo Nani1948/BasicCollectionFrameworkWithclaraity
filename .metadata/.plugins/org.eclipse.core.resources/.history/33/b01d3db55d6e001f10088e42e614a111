@@ -1,0 +1,6 @@
+package basic.day2;
+
+public class UtiliyClass {
+	//Utility: it is a class which has set of methods that can be utilized by external word  in order to perform any action.
+
+}

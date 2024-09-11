@@ -1,0 +1,14 @@
+package basic.day2.constructor;
+
+public class ConstructorDemo {
+	//Constructor:it is a special kind of method which used to intilise the object 
+	//It is a special kind of method which used to initialized to the members of the objects.
+	//It is used to initialize attributes of a class.
+	//At that time of creating an object, we can initalised value to those attributes.
+	//Constructor will not have any return type. 
+	//Constructor is a parameterized or non-parameterized.
+	//Constructor: it has default constructor or zero parameter , parameter and non-parameter.
+	
+	
+
+}

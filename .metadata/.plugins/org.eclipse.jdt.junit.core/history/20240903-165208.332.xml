@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="APIFramework" tests="3" started="3" failures="0" errors="1" ignored="0">
+  <testsuite name="cucumber.Options.TestRunner" time="7.04">
+    <testsuite name="Validating Place API's" time="7.04">
+      <testcase name="Verify if place is being sucucessfully added using AddPlaceAPI. #1" classname="Validating Place API's" time="4.579"/>
+      <testcase name="Verify if place is being sucucessfully added using AddPlaceAPI. #2" classname="Validating Place API's" time="2.431"/>
+      <testcase name="Verify the delete place functionality is working" classname="Validating Place API's" time="0.03">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'Delete Place Payload.' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Given("Delete Place Payload.")
+public void delete_place_payload() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

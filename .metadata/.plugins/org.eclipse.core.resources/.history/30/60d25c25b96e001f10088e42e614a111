@@ -1,0 +1,16 @@
+package basic.day2.constructor;
+
+public class StudentCons {
+	public int id;
+	public String name;
+	public int age;
+	public void printInfo() {
+		System.out.println("id="+id+"and name="+name+"and age="+age);
+	}
+	StudentCons(){
+		id=10;
+		name="aana";
+		age=25;
+		
+	}
+}

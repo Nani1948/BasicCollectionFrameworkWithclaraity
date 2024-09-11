@@ -1,0 +1,8 @@
+package basic.day2.constructor;
+
+public class ConstrutorTest {
+	public static void main(String []args) {
+	StudentCons ob=new StudentCons();
+	System.out.println(ob.name);
+	}	
+}

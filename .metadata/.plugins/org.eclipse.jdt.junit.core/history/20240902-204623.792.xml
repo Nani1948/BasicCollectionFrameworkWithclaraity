@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="APIFramework" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="cucumber.Options.TestRunner" time="0.702">
+    <testsuite name="Validating Place API's" time="0.702">
+      <testcase name="Verify if place is being sucucessfully added using AddPlaceAPI." classname="Validating Place API's" time="0.702">
+        <error>java.lang.NullPointerException: Print stream cannot be null&#13;
+	at java.base/java.util.Objects.requireNonNull(Objects.java:334)&#13;
+	at org.apache.commons.lang3.Validate.notNull(Validate.java:225)&#13;
+	at io.restassured.filter.log.RequestLoggingFilter.&lt;init&gt;(RequestLoggingFilter.java:122)&#13;
+	at io.restassured.filter.log.RequestLoggingFilter.&lt;init&gt;(RequestLoggingFilter.java:110)&#13;
+	at io.restassured.filter.log.RequestLoggingFilter.&lt;init&gt;(RequestLoggingFilter.java:98)&#13;
+	at io.restassured.filter.log.RequestLoggingFilter.&lt;init&gt;(RequestLoggingFilter.java:86)&#13;
+	at io.restassured.filter.log.RequestLoggingFilter.&lt;init&gt;(RequestLoggingFilter.java:76)&#13;
+	at io.restassured.filter.log.RequestLoggingFilter.logRequestTo(RequestLoggingFilter.java:156)&#13;
+	at resources.Utils.requestSpecification(Utils.java:27)&#13;
+	at stepDefinition.PlaceValidations.add_place_payload(PlaceValidations.java:38)&#13;
+	at ✽.Add Place Payload.(file:///C:/Users/knand/eclipse-workspace/APIFramework/src/test/java/features/placeValidations.feature:4)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,23 @@
+package basic.day2.constructor;
+
+public class StudentCons {
+	public int id;
+	public String name;
+	public int age;
+	public void printInfo() {
+		System.out.println("id="+id+"and name="+name+"and age="+age);
+	}
+	public StudentCons(){
+		id=10;
+		name="aana";
+		age=25;
+		
+	}
+	public StudentCons(int id, String name,int age){
+	  System.out.println("Three parameter Constructor Called");
+		this.id=id;//This represent the current object of that class.
+		this.name=name;
+		this.age=age;
+		
+	}
+}
